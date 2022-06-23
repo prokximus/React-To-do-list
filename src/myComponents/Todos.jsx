@@ -30,7 +30,7 @@ export default function Todos(props,) {
                     </thead>
                     <tbody>
             {props.toDos.map((iteration) => {
-                return <TodoItem todo={iteration} index={props.toDos.indexOf(iteration)} key={1} onDelete={()=> {props.onDelete(iteration.title)}} />
+                return <TodoItem todo={iteration} index={props.toDos.indexOf(iteration)} key={props.toDos.indexOf(iteration)+1} onDelete={()=> {props.onDelete(iteration.title)}} />
             })}
                     </tbody>
                 </table>
