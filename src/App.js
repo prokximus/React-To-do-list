@@ -35,7 +35,7 @@ function App() {
     }))
   }
   return (
-    <div classnames="App margin-auto">
+    <div classnames="App margin-auto overflow-x-hidden">
       <header classnames="App-header">
         <Header title="My To Dos" bool="ture" />
       </header>
