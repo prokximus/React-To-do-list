@@ -4,7 +4,7 @@ import mtStatement from './mtStatement'
 
 export default function Todos(props) {
     return (
-        <div className='w-full'>
+        <div className='w-full mx-auto'>
             <div className=" overflow-x-auto whitespace-pre-wrap shadow-md">
                 <table className=" w-full table-layout:fixed text-sm text-left text-gray-500 dark:text-gray-400">
                     <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
